@@ -386,9 +386,13 @@ nav li a:hover {
 
 	.side-bar-content {
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		padding-left: 1rem;
-		margin: 1rem 0;
+		margin: 1.5rem 0;
+	}
+
+	.side-bar-content .fa-solid {
+		margin-top: .25rem;
 	}
 
 	.profile-picture {
